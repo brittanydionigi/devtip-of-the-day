@@ -35,13 +35,13 @@
     "tool": "EditorConfig",
     "toolSlug": "editors",
     "source": "http://editorconfig.org/",
-    "text": "You can use the .editorconfig format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working on a group!"
+    "text": "You can use the [.editorconfig] format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working in a group!"
   },
   {
     "tool": "Git",
-    "toolSlug": "gitconfig",
+    "toolSlug": "git",
     "source": "https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases",
-    "text": "Create your own alias on .gitconfig, so you don't need to type long command lines. Show others how to deploy with a simple '>git deploy'!"
+    "text": "Create your own aliases in your [.gitconfig] file, so you don't need to type long command lines. Show others how to deploy with a simple [>git deploy]!"
   },
   { 
     "tool": "Sublime Linter",
