@@ -45,8 +45,8 @@
   },
   { 
     "tool": "Sublime Linter",
-    "toolSlug": "sublimeeditor",
+    "toolSlug": "sublimetext",
     "source": "http://www.sublimelinter.com",
-    "text": "Everyone makes mistakes, keep yours in sight using a proper linting plugin. Don't be the one that forgot that ´;´!"
+    "text": "Everyone makes mistakes, keep yours in sight using a proper linting plugin. Don't be the one that forgot that ';'!"
   }
 ]
