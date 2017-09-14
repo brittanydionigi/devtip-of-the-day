@@ -11,9 +11,9 @@
   ],
 
   "icons": { 
-    "16": "assets/images/icons/16x16.png",
-    "48": "assets/images/icons/48x48.png",
-    "128": "assets/images/icons/128x128.png"
+    "16": "assets/icons/16x16.png",
+    "48": "assets/icons/48x48.png",
+    "128": "assets/icons/128x128.png"
   },
   
   "chrome_url_overrides": {
