@@ -1,0 +1,41 @@
+body, html {
+  font-family: 'Helvetica', Arial, sans-serif;
+  margin: 1em;
+}
+
+h1 {
+  color: #555;
+  font-size: 1.5em;
+  font-weight: 100;
+  padding: 10px 5px;
+  text-transform: uppercase;
+}
+
+#tip-container {
+  color: #555;
+  margin: 50px auto;
+  max-width: 600px;
+}
+
+#tip-category {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 1.2em;
+  padding: 10px 15px;
+  margin: 0;
+}
+
+#tip-category.github   { background-color: #edd8df; }
+#tip-category.terminal { background-color: #fdd6b8; }
+#tip-category.sublime  { background-color: #bbd8e0; }
+#tip-category.osx      { background-color: #cbe6d8; }
+
+#tip-text {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 1.5em;
+}
+
+footer {
+  font-size: 0.9em;
+  text-align: center;
+}
