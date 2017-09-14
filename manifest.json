@@ -9,8 +9,13 @@
     "activeTab",
     "storage"
   ],
-  
+
   "chrome_url_overrides": {
     "newtab": "devtip.html"
+  },
+
+  "options_ui": {
+    "page": "options.html",
+    "chrome_style": true
   }
 }
