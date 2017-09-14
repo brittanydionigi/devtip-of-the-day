@@ -30,5 +30,23 @@
     "tool": "OS X",
     "toolSlug": "osx",
     "text": "[cmd + tab] will help you qickly cycle through your open applications instead of having to click on them from the dock. So fast!"
+  },
+  {
+    "tool": "EditorConfig",
+    "toolSlug": "editors",
+    "source": "http://editorconfig.org/",
+    "text": "You can use the .editorconfig format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working on a group!"
+  },
+  {
+    "tool": "Git",
+    "toolSlug": "gitconfig",
+    "source": "https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases",
+    "text": "Create your own alias on .gitconfig, so you don't need to type long command lines. Show others how to deploy with a simple '>git deploy'!"
+  },
+  { 
+    "tool": "Sublime Linter",
+    "toolSlug": "sublimeeditor",
+    "source": "http://www.sublimelinter.com",
+    "text": "Everyone makes mistakes, keep yours in sight using a proper linting plugin. Don't be the one that forgot that ´;´!"
   }
 ]
