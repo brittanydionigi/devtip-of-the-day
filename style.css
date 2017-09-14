@@ -14,7 +14,7 @@ h1 {
 #tip-container {
   color: #555;
   margin: 50px auto;
-  max-width: 600px;
+  max-width: 800px;
 }
 
 #tip-category {
@@ -30,9 +30,21 @@ h1 {
 #tip-category.osx      { background-color: #cbe6d8; }
 
 #tip-text {
-  font-size: 1.1em;
+  font-size: 2em;
+  font-weight: 200;
   line-height: 1.5em;
   margin: 1.5em;
+}
+
+a:link, a:visited {
+  color: #f700ac;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.learn-more {
+  display: inline-block;
+  margin: 0 0.5em;
 }
 
 code {
