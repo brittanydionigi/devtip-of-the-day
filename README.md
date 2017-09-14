@@ -22,3 +22,9 @@ Add a new tip to the `tips.json` file by adding an object like so:
 ```
 
 Currently prioritizing tips for Sublime Text, Terminal and OS X, but others will be accepted as well!
+
+## Testing Your Changes Locally
+
+### In Chrome
+
+From the Window menu in Chrome, click on 'Extensions'. When the Extensions page appears, make sure the 'Developer Mode' checkbox is checked in the top right corner. Then click the 'Load unpacked extension...' button in the top left corner. Navigate to the directory where you cloned this repo and select it. Make sure it's enabled and whenever you open a new tab you should see a new tip :) 
