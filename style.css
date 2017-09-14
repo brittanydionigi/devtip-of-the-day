@@ -35,6 +35,15 @@ h1 {
   margin: 1.5em;
 }
 
+code {
+  color: #f700ac;
+  font-size: 1.2em;
+  background-color: #fcfcfc;
+  padding: 0.1em 0.4em;
+  border-radius: 0.2em;
+  border: 1px solid #f1f1f1;
+}
+
 footer {
   font-size: 0.9em;
   text-align: center;

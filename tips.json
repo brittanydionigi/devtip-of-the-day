@@ -1,6 +1,6 @@
 [
-  { "id": 1, "tool": "GitHub",        "toolSlug": "github",    "text": "When you're browsing a repo on GitHub, pressing the 't' key will open up a search box and allow you to search for any file within the repo that you can then navigate to. This saves a ton of clicks especially when trying to find a file that's in a deeply-nested directory! Cool, right?" },
-  { "id": 2, "tool": "GitHub",        "toolSlug": "github",    "text": "Typing \"g i\" will bring you directly to all of your GitHub issues. Same with \"g p\" for pull requests! Gnarly!" },
-  { "id": 3, "tool": "Command Line",  "toolSlug": "terminal",  "text": "If you've made a typo in a command you haven't yet run, you can use Ctrl + A to jump the cursor to the beginning of the command. Ctrl + E will jump the cursor to the end. Option + click will bring the cursor to wherever you clicked!" },
-  { "id": 4, "tool": "Command Line",  "toolSlug": "terminal",  "text": "Use the UP arrow to cycle through previously run commands. This is useful when you're doing repetitive tasks like pushing commits to GitHub!" }
+  { "id": 1, "tool": "GitHub",        "toolSlug": "github",    "text": "When you're browsing a repo on GitHub, pressing the [t] key will open up a search box and allow you to search for any file within the repo that you can then navigate to. This saves a ton of clicks especially when trying to find a file that's in a deeply-nested directory! Cool, right?" },
+  { "id": 2, "tool": "GitHub",        "toolSlug": "github",    "text": "Typing [g i] will bring you directly to all of your GitHub issues. Same with [g p] for pull requests! Gnarly!" },
+  { "id": 3, "tool": "Command Line",  "toolSlug": "terminal",  "text": "If you've made a typo in a command you haven't yet run, you can use [ctrl + a] to jump the cursor to the beginning of the command. [ctrl + e] will jump the cursor to the end. [option + click] will bring the cursor to wherever you clicked!" },
+  { "id": 4, "tool": "Command Line",  "toolSlug": "terminal",  "text": "Use the [UP arrow] to cycle through previously run commands. This is useful when you're doing repetitive tasks like pushing commits to GitHub!" }
 ]

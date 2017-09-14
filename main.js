@@ -7,6 +7,7 @@ fetch('tips.json')
     tipCategoryElem.textContent = randomTip.tool;
     tipCategoryElem.classList.add(randomTip.toolSlug);
 
-    document.getElementById('tip-text').textContent = randomTip.text;
+    let tipText = randomTip.text.replace(/\[/g, '<code>').replace(/\]/g, '</code>');
+    document.getElementById('tip-text').innerHTML = tipText;
   })
   .catch(error => console.log({ error }));
