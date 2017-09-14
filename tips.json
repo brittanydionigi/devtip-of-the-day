@@ -21,6 +21,11 @@
     "toolSlug": "terminal",
     "text": "Use the [UP arrow] to cycle through previously run commands. This is useful when you're doing repetitive tasks like pushing commits to GitHub!"
   },
+  { 
+    "tool": "Command Line",
+    "toolSlug": "terminal",
+    "text": "Use [ctrl + l] to clear the screen. This doesn't lose any of your previous commands, but can help if you need a visual break! Neat, huh?"
+  },
   {
     "tool": "OS X",
     "toolSlug": "osx",
