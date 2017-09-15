@@ -32,6 +32,11 @@
     "text": "[cmd + tab] will help you qickly cycle through your open applications instead of having to click on them from the dock. So fast!"
   },
   {
+    "tool": "OS X",
+    "toolSlug": "osx",
+    "text": "Use [cmd + R] for Normal reload of the web page in the current browser tab. Use [cmd + shift + R] for Hard reload of the web page in the current browser tab"
+  },
+  {
     "tool": "EditorConfig",
     "toolSlug": "editors",
     "source": "http://editorconfig.org/",
