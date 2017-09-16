@@ -16,5 +16,6 @@
     "getter-return": ["error", { "allowImplicit": true }],
     "no-template-curly-in-string": "error",
     "no-use-before-define": "error",
-    "semi": ["error", "always"]
+    "no-console": "off"
+  }
 }
