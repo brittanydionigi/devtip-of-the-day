@@ -88,7 +88,7 @@
     "tool": "EditorConfig",
     "toolSlug": "editors",
     "source": "http://editorconfig.org/",
-    "text": "You can use the [.editor: youconfig] format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working in a group!"
+    "text": "You can use the [.editorconfig] format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working in a group!"
   },
   {
     "tool": "Sublime Linter",
