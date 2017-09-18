@@ -21,18 +21,18 @@
     "tool": "Git",
     "toolSlug": "git",
     "source": "https://git-scm.com/docs/git-stash",
-    "text": "You can quickly revert changes without losing your work using [>git stash]. You can access your old code using [git stash list], and you can even convert it into a branch using [>git stash branch]!"
+    "text": "Use [>git stash] to quickly revert your changes. You can access them later using [git stash list], and you can even convert them into a branch using [>git stash branch]!"
   },
   {
     "tool": "Git",
     "toolSlug": "git",
     "source": "https://git-scm.com/docs/git-log",
-    "text": "Confused about branches and merges? Try using [>git log --graph] for a nice overview of the project branch history."
+    "text": "Use [>git log --graph] for a quick overview of the project branch history."
   },{
     "tool": "Git",
     "toolSlug": "git",
     "source": "https://git-scm.com/docs/git-update-index",
-    "text": "You need to edit a file but you don't want to commit changes? Use [>git update-index --assume-unchanged YOURFILE] and Git will ignore your changes!"
+    "text": "If you need to keep changes but you don't want to commit them, use [>git update-index --assume-unchanged YOURFILE] and Git will ignore them!"
   },
   {
     "tool": "Command Line",
