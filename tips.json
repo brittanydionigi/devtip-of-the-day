@@ -27,7 +27,7 @@
     "tool": "Git",
     "toolSlug": "git",
     "source": "https://git-scm.com/docs/git-log",
-    "text": "Confused about branches and merges? Try using [>git log --graph] for a nice overview of the project's branch history."
+    "text": "Confused about branches and merges? Try using [>git log --graph] for a nice overview of the project branch history."
   },{
     "tool": "Git",
     "toolSlug": "git",
