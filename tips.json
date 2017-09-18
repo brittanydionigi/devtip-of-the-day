@@ -18,6 +18,23 @@
     "text": "Create your own aliases in your [.gitconfig] file, so you don't need to type long command lines. Show others how to deploy with a simple [>git deploy]!"
   },
   {
+    "tool": "Git",
+    "toolSlug": "git",
+    "source": "https://git-scm.com/docs/git-stash",
+    "text": "Use [>git stash] to quickly revert your changes. You can access them later using [git stash list], and you can even convert them into a branch using [>git stash branch]!"
+  },
+  {
+    "tool": "Git",
+    "toolSlug": "git",
+    "source": "https://git-scm.com/docs/git-log",
+    "text": "Use [>git log --graph] for a quick overview of the project branch history."
+  },{
+    "tool": "Git",
+    "toolSlug": "git",
+    "source": "https://git-scm.com/docs/git-update-index",
+    "text": "If you need to keep changes but you don't want to commit them, use [>git update-index --assume-unchanged YOURFILE] and Git will ignore them!"
+  },
+  {
     "tool": "Command Line",
     "toolSlug": "terminal",
     "text": "If you've made a typo in a command you haven't yet run, you can use [ctrl + a] to jump the cursor to the beginning of the command. [ctrl + e] will jump the cursor to the end. [option + click] will bring the cursor to wherever you clicked!"
