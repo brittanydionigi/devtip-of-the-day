@@ -4,9 +4,13 @@ A browser extension for displaying a new tip, trick, or shortcut for developers 
 
 # Contributing
 
-Fork this repo and create a new branch to do your work. Commit messages should follow [these conventions](https://chris.beams.io/posts/git-commit/) (TLDR: Take a look at the commit messages in the history and do your best to match).
+## Getting Started
 
-There is no linter or style guide in place at the moment. Welcome to the wild, wild, west. I'm happy to accept a PR for adding these things but right now the top priority is filling out the `tips.json` file. Which brings us to...
+For this repo and from within the project directory run:
+
+`npm install`
+
+Create a new branch for your work that reflects what feature you're adding or bug you'll be fixing. (e.g. `add-offline-support`). Commit messages should follow [these conventions](https://chris.beams.io/posts/git-commit/) (TLDR: Take a look at the commit messages in the history and do your best to match). Please take care to squash your commits, and if you're working on a patch that has a relevant issue, make sure to add "Fixes #<issue number>" to the commit description. This will automatically close the issue when the work is merged into master.
 
 ## Submitting a Tip
 

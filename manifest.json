@@ -9,6 +9,12 @@
     "activeTab",
     "storage"
   ],
+
+  "icons": { 
+    "16": "assets/icons/16x16.png",
+    "48": "assets/icons/48x48.png",
+    "128": "assets/icons/128x128.png"
+  },
   
   "chrome_url_overrides": {
     "newtab": "devtip.html"

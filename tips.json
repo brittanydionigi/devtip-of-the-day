@@ -1,41 +1,15 @@
 [
-  { 
+  {
     "tool": "GitHub",
     "toolSlug": "github",
     "source": "https://help.github.com/articles/using-keyboard-shortcuts/",
     "text": "When you're browsing a repo on GitHub, pressing the [t] key will open up a search box and allow you to search for any file within the repo that you can then navigate to. This saves a ton of clicks especially when trying to find a file that's in a deeply-nested directory! Cool, right?"
   },
-  { 
+  {
     "tool": "GitHub",
     "toolSlug": "github",
     "source": "https://help.github.com/articles/using-keyboard-shortcuts/",
     "text": "Typing [g i] will bring you directly to all of your GitHub issues. Same with [g p] for pull requests! Gnarly!"
-  },
-  { 
-    "tool": "Command Line",
-    "toolSlug": "terminal",
-    "text": "If you've made a typo in a command you haven't yet run, you can use [ctrl + a] to jump the cursor to the beginning of the command. [ctrl + e] will jump the cursor to the end. [option + click] will bring the cursor to wherever you clicked!"
-  },
-  { 
-    "tool": "Command Line",
-    "toolSlug": "terminal",
-    "text": "Use the [UP arrow] to cycle through previously run commands. This is useful when you're doing repetitive tasks like pushing commits to GitHub!"
-  },
-  { 
-    "tool": "Command Line",
-    "toolSlug": "terminal",
-    "text": "Use [ctrl + l] to clear the screen. This doesn't lose any of your previous commands, but can help if you need a visual break! Neat, huh?"
-  },
-  {
-    "tool": "OS X",
-    "toolSlug": "osx",
-    "text": "[cmd + tab] will help you qickly cycle through your open applications instead of having to click on them from the dock. So fast!"
-  },
-  {
-    "tool": "EditorConfig",
-    "toolSlug": "editors",
-    "source": "http://editorconfig.org/",
-    "text": "You can use the [.editor: youconfig] format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working in a group!"
   },
   {
     "tool": "Git",
@@ -47,7 +21,7 @@
     "tool": "Git",
     "toolSlug": "git",
     "source": "https://git-scm.com/docs/git-stash",
-    "text": "You can quickly revert changes without losing your work using [>git stash]. Your code remains available using [git stash list], and you can even convert it into a branch using [>git stash branch]!"
+    "text": "You can quickly revert changes without losing your work using [>git stash]. You can access your old code using [git stash list], and you can even convert it into a branch using [>git stash branch]!"
   },
   {
     "tool": "Git",
@@ -60,7 +34,63 @@
     "source": "https://git-scm.com/docs/git-update-index",
     "text": "You need to edit a file but you don't want to commit changes? Use [>git update-index --assume-unchanged YOURFILE] and GIT will ignore your changes!"
   },
-  { 
+  {
+    "tool": "Command Line",
+    "toolSlug": "terminal",
+    "text": "If you've made a typo in a command you haven't yet run, you can use [ctrl + a] to jump the cursor to the beginning of the command. [ctrl + e] will jump the cursor to the end. [option + click] will bring the cursor to wherever you clicked!"
+  },
+  {
+    "tool": "Command Line",
+    "toolSlug": "terminal",
+    "text": "Use the [UP arrow] to cycle through previously run commands. This is useful when you're doing repetitive tasks like pushing commits to GitHub!"
+  },
+  {
+    "tool": "Command Line",
+    "toolSlug": "terminal",
+    "text": "Use [ctrl + l] to clear the screen. This doesn't lose any of your previous commands, but can help if you need a visual break! Neat, huh?"
+  },
+  {
+    "tool": "Command Line",
+    "toolSlug": "terminal",
+    "text": "Use [!!] to repeat your previous command. Because we love repeating ourselves right?"
+  },
+  {
+    "tool": "Command Line",
+    "toolSlug": "terminal",
+    "text": "Hold down the [option] while scrolling forward or backwards for lightning fast speeds!"
+  },
+  {
+    "tool": "Command Line",
+    "toolSlug": "terminal",
+    "text": "Use [cmd + number] to access the tab corresponding to the number. For example, to quicky switch to the third tab use [cmd + 3]."
+  },
+  {
+    "tool": "Command Line",
+    "toolSlug": "terminal",
+    "text": "Use [history | grep <search term>] to search your history for a particular command. For example, [history | grep npm] to find all commands you've used that match npm."
+  },
+  {
+    "tool": "OS X",
+    "toolSlug": "osx",
+    "text": "[cmd + tab] will help you qickly cycle through your open applications instead of having to click on them from the dock. So fast!"
+  },
+  {
+    "tool": "OS X",
+    "toolSlug": "osx",
+    "text": "[cmd + w] will close the current tab in most applications, now you can quicky close the 14/30 tabs you don't need in Chrome."
+  },
+  {
+    "tool": "OS X",
+    "toolSlug": "osx",
+    "text": "[cmd + q] will close the current application -- maybe you don't need any of those tabs!"
+  },
+  {
+    "tool": "EditorConfig",
+    "toolSlug": "editors",
+    "source": "http://editorconfig.org/",
+    "text": "You can use the [.editor: youconfig] format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working in a group!"
+  },
+  {
     "tool": "Sublime Linter",
     "toolSlug": "sublimetext",
     "source": "http://www.sublimelinter.com",
