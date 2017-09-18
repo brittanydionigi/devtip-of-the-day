@@ -35,13 +35,30 @@
     "tool": "EditorConfig",
     "toolSlug": "editors",
     "source": "http://editorconfig.org/",
-    "text": "You can use the [.editorconfig] format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working in a group!"
+    "text": "You can use the [.editor: youconfig] format to maintain consistent coding styles between different editors and IDEs. Excellent if you are working in a group!"
   },
   {
     "tool": "Git",
     "toolSlug": "git",
     "source": "https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases",
     "text": "Create your own aliases in your [.gitconfig] file, so you don't need to type long command lines. Show others how to deploy with a simple [>git deploy]!"
+  },
+  {
+    "tool": "Git",
+    "toolSlug": "git",
+    "source": "https://git-scm.com/docs/git-stash",
+    "text": "You can quickly revert changes without losing your work using [>git stash]. Your code remains available using [git stash list], and you can even convert it into a branch using [>git stash branch]!"
+  },
+  {
+    "tool": "Git",
+    "toolSlug": "git",
+    "source": "https://git-scm.com/docs/git-log",
+    "text": "Confused about branches and merges? Try using [>git log --graph] for a nice overview of the project's branch history."
+  },{
+    "tool": "Git",
+    "toolSlug": "git",
+    "source": "https://git-scm.com/docs/git-update-index",
+    "text": "You need to edit a file but you don't want to commit changes? Use [>git update-index --assume-unchanged YOURFILE] and GIT will ignore your changes!"
   },
   { 
     "tool": "Sublime Linter",
