@@ -5,10 +5,13 @@ fetch('tips.json')
 
     let tipCategoryElem = document.getElementById('tip-category');
     let tipTextElem = document.getElementById('tip-text');
+    let rabbitCategory = document.getElementById('rabbit');
 
     // Update category text and class
     tipCategoryElem.textContent = tipOfTheDay.tool;
     tipCategoryElem.classList.add(tipOfTheDay.toolSlug);
+    rabbitCategory.classList.add(tipOfTheDay.toolSlug);
+    tipTextElem.classList.add(tipOfTheDay.toolSlug);
 
     // Update tip text and add source link if applicable
     let tipText = tipOfTheDay.text
@@ -25,3 +28,10 @@ fetch('tips.json')
     }
   })
   .catch(error => console.log({ error }));
+
+document.querySelector('body').addEventListener('mousemove', event => {
+  let cursorX = event.clientX;
+  let shiftAmount = -6 + cursorX / (window.innerWidth / 10);
+  document.getElementById('rabbitFace').style.transform =
+    'translateX(' + shiftAmount + 'px)';
+});
