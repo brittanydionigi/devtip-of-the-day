@@ -32,7 +32,7 @@
     "tool": "Git",
     "toolSlug": "git",
     "source": "https://git-scm.com/docs/git-update-index",
-    "text": "You need to edit a file but you don't want to commit changes? Use [>git update-index --assume-unchanged YOURFILE] and GIT will ignore your changes!"
+    "text": "You need to edit a file but you don't want to commit changes? Use [>git update-index --assume-unchanged YOURFILE] and Git will ignore your changes!"
   },
   {
     "tool": "Command Line",
