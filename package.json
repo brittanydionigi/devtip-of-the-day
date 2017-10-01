@@ -1,0 +1,35 @@
+{
+  "name": "devtip-of-the-day",
+  "version": "1.0.0",
+  "description":
+    "A browser extension for displaying a new tip, trick, or shortcut for developers upon opening a new browser tab.",
+  "main": "main.js",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,json,css}": ["prettier --write", "eslint .", "git add"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brittanystoroz/devtip-of-the-day.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brittanystoroz/devtip-of-the-day/issues"
+  },
+  "homepage": "https://github.com/brittanystoroz/devtip-of-the-day",
+  "dependencies": {
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-prettier": "^2.5.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.2.1",
+    "prettier": "^1.7.0"
+  }
+}

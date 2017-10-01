@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": ["error", { "singleQuote": true}],
+    "eqeqeq": ["error", "always"],
+    "getter-return": ["error", { "allowImplicit": true }],
+    "no-template-curly-in-string": "error",
+    "no-use-before-define": "error",
+    "no-console": "off"
+  }
+}

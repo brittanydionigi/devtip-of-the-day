@@ -11,7 +11,9 @@ fetch('tips.json')
     tipCategoryElem.classList.add(tipOfTheDay.toolSlug);
 
     // Update tip text and add source link if applicable
-    let tipText = tipOfTheDay.text.replace(/\[/g, '<code>').replace(/\]/g, '</code>');
+    let tipText = tipOfTheDay.text
+      .replace(/\[/g, '<code>')
+      .replace(/\]/g, '</code>');
     tipTextElem.innerHTML = tipText;
 
     if (tipOfTheDay.source) {
