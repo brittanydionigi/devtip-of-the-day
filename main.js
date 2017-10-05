@@ -1,7 +1,12 @@
 fetch('tips.json')
   .then(response => response.json())
   .then(tips => {
-    let tipOfTheDay = tips[Math.floor(Math.random() * tips.length)];
+    // Get the Number of days passed since project creation
+    let projectCreactionDate = new Date(2017,09,14);
+    let today = new Date();
+    let diffDays = Math.round(Math.abs((projectCreactionDate.getTime() - today.getTime())/(86400000)));
+
+    let tipOfTheDay = tips[diffDays % tips.length];
 
     let tipCategoryElem = document.getElementById('tip-category');
     let tipTextElem = document.getElementById('tip-text');
