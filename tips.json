@@ -84,6 +84,12 @@
     "toolSlug": "osx",
     "text": "[cmd + q] will close the current application -- maybe you don't need any of those tabs!"
   },
+   {
+    "tool": "OS X",
+    "toolSlug": "osx",
+    "source": "https://stackoverflow.com/questions/14969315/whats-the-difference-between-normal-reload-hard-reload-and-empty-cache-a#answer-14969509",
+    "text": "Use [cmd + r] for Normal reload of the web page in the current browser tab. Use [cmd + shift + r] for Hard reload of the web page in the current browser tab"
+  },
   {
     "tool": "EditorConfig",
     "toolSlug": "editors",
